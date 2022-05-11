@@ -36,7 +36,7 @@ crsr.execute("SELECT * FROM employee_information")
 employee_information = crsr.fetchall()
 
 # Print the fetched employee data
-crsr.execute(add_employee_data1) # Add employee1 data
+#crsr.execute(add_employee_data1) # Add employee1 data
 
 # Close the database connection
 db_connection.close()
